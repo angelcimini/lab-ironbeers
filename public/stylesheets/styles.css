@@ -1,3 +1,79 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #2081c3;
+    height: 3rem;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: left;    
+}
+
+nav li {
+    margin-right: 3rem;
+}
+
+nav a {
+    line-height: 3rem;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#divBeer {
+    text-align: center;
+}
+
+#divBeer img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+#divBeer a {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2081c3;
+    color: white;
+    line-height: 4rem;
+    width: 400px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+#containerBeers {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+#beersDescription {
+    width: 25vw;
+    margin: 2rem;
+}
+
+#beersDescription p {
+    width: 80%;
+}
+
+#beersDescription img, #randomBeerDiv img {
+    width: 100px;
+    height: 200px;
+}
+
+#randomBeerDiv {
+    padding: 2rem;
+}
+
 /*
 white: #f7f9f9;
 light-blue: #2081c3;
